@@ -1,3 +1,3 @@
 net stop SlimFTPd
-tail -n 4 %ProgramFiles(X86)%\AitecScan\SlimFTPd.log > %ProgramFiles(X86)%\AitecScan\SlimFTPd.log
+tail -n 4 programFolder\SlimFTPd.log > programFolder\SlimFTPd.log
 net start SlimFTPd
